@@ -1,7 +1,7 @@
 # Ecommerce Sales Report
 Tools and Techniques: **Power BI, Power Query, Data Modeling, DAX, Dashboard Development**
 
-![ecommerce-page](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/504b82b9b2c5e4eb4d2a5696eadaac14dbb2923f/Assets/header_2.png)
+![ecommerce-page](https://github.com/jiannelibunao/ecommerce-sales-report/blob/c3c247f453f0cc1173d2746f5ab4e4743c1fb05e/Assets/header.png)
 
 ## Table of Contents
 1. Project Background
@@ -23,7 +23,7 @@ Insights and recommendations are provided on the following key areas:
 ## Data Structure and Initial Checks
 The company dataset structure as seen below consists of three (3) sheets, [Events], [Products], and [Customers]. [Events] has 20 native columns with one primary key connected [Products] and [Customers]. [Product] has 13 columns while [Customers] has 10. 
 
-![dataset-structure](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/353d379ff529c9abaaf8f0c3c76d7ebe792d3ffa/Assets/dataset-structure.png)
+![dataset-structure](https://github.com/jiannelibunao/ecommerce-sales-report/blob/c3c247f453f0cc1173d2746f5ab4e4743c1fb05e/Assets/data-structure.png)
 
 Prior to beginning the analysis, an inspection was conducted in Power Query to check any data errors. No issues were found and familiarization of the dataset was established.
 
@@ -33,7 +33,7 @@ The business shows strong year‑over‑year growth across sales, transactions, 
 ## Insights Deep Dive
 ### Performance Overview
 
-![overview-page](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard.jpg)
+![overview-page](https://github.com/jiannelibunao/ecommerce-sales-report/blob/c3c247f453f0cc1173d2746f5ab4e4743c1fb05e/Assets/v0_overview.png)
 
 ####	Yearly Growth vs. Monthly Volatility
 -  **Sales, transactions, and loyalty metrics have grown steadily from 2024 to 2025.** However, recent monthly data reveals a noticeable dip:
@@ -57,7 +57,7 @@ The business shows strong year‑over‑year growth across sales, transactions, 
 
 ### Ecommerce Performance 
 
-![ecommerce-page](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard2.jpg)
+![ecommerce-page](https://github.com/jiannelibunao/ecommerce-sales-report/blob/c3c247f453f0cc1173d2746f5ab4e4743c1fb05e/Assets/v1_ecommerce.png)
 
 #### Customer Loyalty and Behavior
 -	**Loyalty Dominance:** Loyal customers make up almost 75% of the total customer base (3K out of 4K), with a strong repeat purchase rate of 73.15%. This indicates high retention and brand trust.
@@ -72,7 +72,7 @@ The business shows strong year‑over‑year growth across sales, transactions, 
 
 ### Customer Loyalty
 
-![customer-page](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard2.jpg)
+![customer-page](https://github.com/jiannelibunao/ecommerce-sales-report/blob/c3c247f453f0cc1173d2746f5ab4e4743c1fb05e/Assets/v2_loyalty.png)
 
 #### Loyalty Strength and Purchase Behavior
 -	**High Loyalty Engagement:** 73% of customers purchased 10 or more products, qualifying as champions in the loyalty lifecycle. This reflects deep product engagement and strong brand affinity.
@@ -90,7 +90,7 @@ The business shows strong year‑over‑year growth across sales, transactions, 
 
 ### Product Performance
 
-![product-page](https://github.com/jiannelibunao/customer-campaign-intelligence/blob/217526b343122ecec4ba074c9362b032979fb1a3/Assets/marketing_dashboard2.jpg)
+![product-page](https://github.com/jiannelibunao/ecommerce-sales-report/blob/c3c247f453f0cc1173d2746f5ab4e4743c1fb05e/Assets/v3_product.png)
 
 #### Category and Product Leaders
 -	**Top Category:** Developer Tools led all product categories with 17.25% of total revenue, confirming strong demand among technical users.
