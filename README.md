@@ -1,4 +1,4 @@
-# Ecommerce Sales Report
+# E-Commerce Sales Report
 Tools and Techniques: **Power BI, Power Query, Data Modeling, DAX, Dashboard Development**
 
 ![ecommerce-page](https://github.com/jiannelibunao/ecommerce-sales-report/blob/c3c247f453f0cc1173d2746f5ab4e4743c1fb05e/Assets/header.png)
@@ -14,11 +14,11 @@ Tools and Techniques: **Power BI, Power Query, Data Modeling, DAX, Dashboard Dev
 A global software retailer sells subscriptions and add-ons across analytics, design, collaboration, and AI. They have two years of historical sales data that needs to be analyzed for smarter, customer-focused decisions.
 This project provided a detailed multi-page report highlighting factors that impact customer loyalty under different factors.
 Insights and recommendations are provided on the following key areas:
--	Revenue Trend (Regular vs. Loyal Customers): Comparison between two customer bases in terms of revenue impact.
--	Top Drivers of Sales: Exploration of different areas of revenue growth focusing on sales channel, product category, payment method, and geographical presence. This helped in understanding each influence on sales.
--	Customer Lifecycle: Breakdown of customer tiers in terms of purchased items.
--	Repeat Purchase Rate via Acquisition Channel: Identify best channels in engaging repeat customers who have made more than 10 purchases.
--	Price vs. Revenue on Loyalty: Analysis on the performance of Repeat Purchase Rate between price and sales of products.
+-	**Revenue Trend (Regular vs. Loyal Customers):** Comparison between two customer bases in terms of revenue impact.
+-	**Top Drivers of Sales:** Exploration of different areas of revenue growth focusing on sales channel, product category, payment method, and geographical presence. This helped in understanding each influence on sales.
+-	**Customer Lifecycle:** Breakdown of customer tiers in terms of purchased items.
+-	**Repeat Purchase Rate via Acquisition Channel:** Identify best channels in engaging repeat customers who have made more than 10 purchases.
+-	**Price vs. Revenue on Loyalty:** Analysis on the performance of Repeat Purchase Rate between price and sales of products.
 
 ## Data Structure and Initial Checks
 The company dataset structure as seen below consists of three (3) sheets, [Events], [Products], and [Customers]. [Events] has 20 native columns with one primary key connected [Products] and [Customers]. [Product] has 13 columns while [Customers] has 10. 
